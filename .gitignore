@@ -1,0 +1,17 @@
+# Ignora el directorio __pycache__
+__pycache__/
+
+# Ignora el archivo de la base de datos SQLite
+db.sqlite3
+
+# Ignora el directorio del entorno virtual
+.venv/
+
+# Ignora los archivos .pyc
+*.pyc
+
+# Ignora los archivos .env
+*.env
+
+# Ignora el directorio .idea
+.idea/
