@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-4nfwvodv6@c^b!h-y611tbpko0ctht_yn0ua3focui+_3yop8l
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['localhost', '127.0.0.1', 'acmeinventory.onrender.com', 'acmeinventoryfront.onrender.com']
+ALLOWED_HOSTS = ['localhost', '127.0.0.1', 'acmeinventory.onrender.com', 'acmeinventoryfront.onrender.com', '100.20.92.101', '44.225.181.72', '44.227.217.144']
 
 
 # Application definition
