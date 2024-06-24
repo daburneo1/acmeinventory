@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-4nfwvodv6@c^b!h-y611tbpko0ctht_yn0ua3focui+_3yop8l
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['acmeinventory.onrender.com']
 
 
 # Application definition
@@ -41,9 +41,7 @@ INSTALLED_APPS = [
     'app',
 ]
 
-CORS_ALLOWED_ORIGINS = [
-    "http://localhost:3001",  # Asegúrate de que esta es la URL de tu aplicación React
-]
+CORS_ALLOWED_ORIGINS = ["*"]
 
 CORS_ALLOW_METHODS = [
     'DELETE',
